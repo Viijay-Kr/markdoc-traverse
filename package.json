@@ -1,8 +1,10 @@
 {
   "name": "markdoc-traverse",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "test": "pnpm build && vitest",
     "build": "rollup --config rollup.config.mjs"
