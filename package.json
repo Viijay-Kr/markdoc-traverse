@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "pnpm build && vitest",
     "build": "rollup --config rollup.config.mjs"
