@@ -89,9 +89,9 @@ traverse(ast, {
 
 ### Tags
 
-Tags can be passed as visitors .
+Visit custom tags configured by your config
 
-`traverse` takes a third arugments which is the list of custom tags you would like to visit
+`traverse` takes a third arugments which is the record of custom tags you would like to visit
 
 ```ts
 
@@ -118,6 +118,6 @@ traverse(ast,{
 })
 ```
 
-> tags can be spread from your markdoc config
+> tags are spread from your markdoc config
 
 > tags are type safe
