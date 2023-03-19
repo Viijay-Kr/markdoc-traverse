@@ -1,4 +1,4 @@
-MarkDoc Traverse
+<h1>MarkDoc Traverse</h1>
 
 A simple, tiny traversal library for `Markdoc`'s AST
 
