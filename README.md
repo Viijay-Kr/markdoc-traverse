@@ -24,6 +24,7 @@ Exit from the document node by passing a `exit` function.
 Useful for performing operations at the end of traversal
 
 ```ts
+import { traverse } from "markdoc-traverse";
 const ast = MarkDoc.parse(`
  Document
  ## Heading
@@ -45,6 +46,8 @@ traverse(ast, {
 Visit markdoc's [`nodes`](https://markdoc.dev/docs/nodes) by passing any node as visitor
 
 ```ts
+import { traverse } from "markdoc-traverse";
+
 const ast = MarkDoc.parse(`
  Document
  ## Heading
@@ -64,6 +67,8 @@ traverse(ast, {
 Visitors are type safe , any makdoc nodes can be passed as a visitor with also option to `enter` and `exit` a node
 
 ```ts
+import { traverse } from "markdoc-traverse";
+
 const ast = MarkDoc.parse(`
  Document
  ## Heading
@@ -89,6 +94,9 @@ Tags can be passed as visitors .
 `traverse` takes a third arugments which is the list of custom tags you would like to visit
 
 ```ts
+
+import { traverse } from 'markdoc-traverse';
+
 const ast = MarkDoc.parse(`
  {% callout %}
    `content`
