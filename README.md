@@ -89,9 +89,9 @@ traverse(ast, {
 
 ### Tags
 
-Visit custom tags configured by your config
+Visit MarkDocs [tags](https://markdoc.dev/docs/tags) configured inside your config file
 
-`traverse` takes a third arugments which is the record of custom tags you would like to visit
+`traverse` takes a third arugments which is a record of custom tags you would like to visit
 
 ```ts
 
