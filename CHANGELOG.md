@@ -1,5 +1,11 @@
 # markdoc-traverse
 
+## 1.1.0
+
+### Minor Changes
+
+- Package json updated with description repository and keywords
+
 ## 1.0.1
 
 ### Major Changes
