@@ -1,18 +1,22 @@
 {
   "name": "markdoc-traverse",
   "version": "1.0.1",
-  "description": "",
+  "description": "A simple and tiny traversal library for MarkDoc AST",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "repository": {
+    "url": "https://github.com/Viijay-Kr/markdoc-traverse",
+    "type": "public"
+  },
   "scripts": {
     "test": "pnpm build && vitest",
     "build": "rollup --config rollup.config.mjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["MarkDoc Traverse","traverse","ast","markdoc ast","markdoc traverse ast"],
+  "author": "Viijay-Kr",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
