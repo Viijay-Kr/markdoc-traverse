@@ -28,7 +28,7 @@ import { traverse } from "markdoc-traverse";
 const ast = MarkDoc.parse(`
  Document
  ## Heading
- This is a level 1 heading
+ This is a level 2 heading
 `);
 
 traverse(ast, {
@@ -51,7 +51,7 @@ import { traverse } from "markdoc-traverse";
 const ast = MarkDoc.parse(`
  Document
  ## Heading
- This is a level 1 heading
+ This is a level 2 heading
 `);
 
 traverse(ast, {
@@ -72,7 +72,7 @@ import { traverse } from "markdoc-traverse";
 const ast = MarkDoc.parse(`
  Document
  ## Heading
- This is a level 1 heading
+ This is a level 2 heading
 `);
 
 traverse(ast, {
