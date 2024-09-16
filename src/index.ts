@@ -1,4 +1,4 @@
-import { Node } from "@markdoc/markdoc";
+import  { Node } from "@markdoc/markdoc";
 import { Visitors, VistorsWithNodeAndTags, VisitNode } from "./types";
 
 export function traverse<N extends Node, V extends Visitors, Tags>(
@@ -6,6 +6,7 @@ export function traverse<N extends Node, V extends Visitors, Tags>(
   visitors: VistorsWithNodeAndTags<Tags>,
   tags: Tags
 ): void;
+
 export function traverse(node: Node, visitors: Visitors, tags?: unknown): void;
 export function traverse(node: Node, visitors: Visitors) {
   function traverseNode(n: Node) {

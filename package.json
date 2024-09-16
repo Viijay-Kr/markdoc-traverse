@@ -7,21 +7,37 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "markdoc",
+    "markdoc-ast",
+    "markdoc-traversal",
+    "ast",
+    "syntax-tree",
+    "abstract-syntax-tree",
+    "markdoc-parser",
+    "markdown",
+    "content-authoring",
+    "ast-visitor",
+    "tree-walker",
+    "markdown-traversal",
+    "document-processing",
+    "content-transformation",
+    "markup-language",
+    "custom-syntax",
+    "static-site-generator",
+    "ast-manipulation",
+    "content-automation",
+    "markdoc-extension"
+  ],
   "repository": {
     "url": "https://github.com/Viijay-Kr/markdoc-traverse",
     "type": "public"
   },
   "scripts": {
-    "test": "pnpm build && vitest",
-    "build": "rollup --config rollup.config.mjs"
+    "test": "bun run build && vitest",
+  "build": "tsup src/index.ts --dts",
+    "release": "bun run build && changeset publish"
   },
-  "keywords": [
-    "MarkDoc Traverse",
-    "traverse",
-    "ast",
-    "markdoc ast",
-    "markdoc traverse ast"
-  ],
   "author": "Viijay-Kr",
   "license": "ISC",
   "devDependencies": {
@@ -32,6 +48,7 @@
     "rollup-plugin-dts": "^5.3.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "tslib": "^2.5.0",
+    "tsup": "^8.2.4",
     "typescript": "^5.0.2",
     "vitest": "^0.29.3"
   }
