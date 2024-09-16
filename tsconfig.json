@@ -2,8 +2,9 @@
   "compilerOptions": {
     "target": "es2016",
 
-    "module": "ESNext",
-
+    "module": "NodeNext",
+    "declarationDir": "dist",
+    "declaration": true,
     "types": ["vitest/importMeta"],
     "noEmit": true,
 
