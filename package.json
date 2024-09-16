@@ -35,8 +35,10 @@
   },
   "scripts": {
     "test": "bun run build && vitest",
-  "build": "tsup src/index.ts --dts",
-    "release": "bun run build && changeset publish"
+    "build": "tsup src/index.ts --dts",
+    "release": "bun run build && changeset publish",
+    "format:check": "prettier src/**/*.ts --check",
+    "format:write": "prettier src/**/*.ts --write"
   },
   "author": "Viijay-Kr",
   "license": "ISC",

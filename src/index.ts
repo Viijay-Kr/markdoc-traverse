@@ -1,4 +1,4 @@
-import  { Node } from "@markdoc/markdoc";
+import { Node } from "@markdoc/markdoc";
 import { Visitors, VistorsWithNodeAndTags, VisitNode } from "./types";
 
 export function traverse<N extends Node, V extends Visitors, Tags>(
