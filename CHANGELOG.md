@@ -1,5 +1,11 @@
 # markdoc-traverse
 
+## 1.1.1
+
+### Patch Changes
+
+- 2834684: adds ci automation workflow and remove pnpm
+
 ## 1.1.0
 
 ### Minor Changes
